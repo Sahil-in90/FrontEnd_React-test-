@@ -1,0 +1,31 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.nav-link{
+  color: black !important;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: lightblue !important;
+}
+
+.btn {
+  border: .01em solid blue;
+}
+
+.btn:hover {
+  background-color: #add8e6;
+  color: #00008b;
+}
+
+.login_link, .signup_link {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
